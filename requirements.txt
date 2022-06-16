@@ -1,7 +1,9 @@
 click==7.1.2
 decorator==4.4.2
-Flask==1.1.4
+Flask>=1.1.4
 graphviz==0.16
+scipy>=0.15.1
+numpy>=1.9.2
 gunicorn==19.10.0
 ipykernel==4.10.1
 lazy-object-proxy==1.4.3

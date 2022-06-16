@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>prediction</title>
+  </head>
+  <body>
+  <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Bike Share Prediction Project</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">fill the form for prediction</p>
+      <br><br><h2><b>{{prediction_text}}</b></h2>
+    </div>
+    <div>
+    
+    </div>
+    <a class="btn btn-primary" href="./" role="button">Back</a>
+<form action='/predict' method='POST'>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label"> season</label>
+  <select class="form-select" id="season" name="season" aria-label="Default select example">
+  <option selected>-- select season --</option>
+  <option value="1">Winter</option>
+  <option value="2">Spring</option>
+ <option value="3">Summer</option>
+  <option value="4">Fall</option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label"> Month</label>
+  <select class="form-select" id="month" name="month" aria-label="Default select example">
+  <option selected>-- select month --</option>
+  <option value="1">January</option>
+  <option value="2">February</option>
+ <option value="3">March</option>
+  <option value="4">April</option>
+ <option value="5">May</option>
+  <option value="6">June</option>
+ <option value="7">July</option>
+  <option value="8">August</option>
+ <option value="9">September</option>
+  <option value="10">October</option>
+<option value="11">November</option>
+  <option value="12">December</option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Hour</label>
+  <select class="form-select" id="hr" name="hr" aria-label="Default select example">
+  <option selected>-- select hour --</option>
+  <option value="0">1</option>
+  <option value="1">2</option>
+  <option value="2">3</option>
+  <option value="3">4</option>
+   <option value="4">5</option>
+  <option value="5">6</option>
+  <option value="6">7</option>
+  <option value="7">8</option>
+   <option value="8">9</option>
+  <option value="9">10</option>
+  <option value="10">11</option>
+  <option value="11">12</option>
+  <option value="12">13</option>
+  <option value="13">14</option>
+  <option value="14">15</option>
+  <option value="15">16</option>
+   <option value="16">17</option>
+  <option value="17">18</option>
+  <option value="18">19</option>
+  <option value="19">20</option>
+   <option value="20">21</option>
+  <option value="21">22</option>
+  <option value="22">23</option>
+  <option value="23">24</option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Holiday</label>
+  <select class="form-select" id="holiday" name="holiday" aria-label="Default select example">
+  <option selected>-- select Holiday --</option>
+  <option value="0">Not Holiday</option>
+  <option value="1">Holiday</option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Weekday</label>
+  <select class="form-select" id="weekday" name="weekday" aria-label="Default select example">
+  <option selected>-- select  Weekday--</option>
+  <option value="0">Sunday</option>
+  <option value="1">Monday</option>
+ <option value="2">Tuesday</option>
+  <option value="3">Wednesday</option>
+ <option value="4">Thursday</option>
+  <option value="5">Friday</option>
+ <option value="6">Saturday</option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Workingday</label>
+  <select class="form-select" id="workingday" name="workingday" aria-label="Default select example">
+  <option selected>-- select Workingday --</option>
+  <option value="0">Not Working</option>
+  <option value="1">Working</option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">weather_condition</label>
+  <select class="form-select" id="weather_condition" name="weather_condition" aria-label="Default select example">
+  <option selected>-- select Weather_condition --</option>
+  <option value="1">Clear</option>
+  <option value="2">Mist</option>
+  <option value="3">Light Rain</option>
+  <option value="4">Heavy Rain</option>
+</select>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Enter Temperature in Celsius</label>
+  <input type="text" class="form-control" id="temp" name="temp" placeholder="temp">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Enter Temperature Feeling in Celsius</label>
+  <input type="text" class="form-control" id="atemp" name="atemp" placeholder="atemp">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Enter Humidity</label>
+  <input type="text" class="form-control" id="humidity" name="humidity" placeholder="humidity">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Enter Wind_Speed</label>
+  <input type="text" class="form-control" id="windspeed" name="windspeed" placeholder="windspeed">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Enter Casual Users Id</label>
+  <input type="text" class="form-control" id="casual" name="casual" placeholder="casual">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Enter Registered Users Id</label>
+  <input type="text" class="form-control" id="registered" name="registered" placeholder="registered">
+</div>
+
+
+    <button type="submit" class="btn btn-primary">Predict</button>
+    </form>
+
+    
+  </div>
+</section>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

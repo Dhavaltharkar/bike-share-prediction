@@ -20,7 +20,7 @@ jupyter-core==4.6.3
 kiwisolver==1.1.0
 MarkupSafe==1.1.1
 matplotlib==2.2.5
-numpy==1.16.6
+numpy==1.19.1
 pathlib2==2.3.6
 pickleshare==0.7.5
 Pillow==6.2.2

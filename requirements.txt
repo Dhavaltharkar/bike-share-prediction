@@ -1,11 +1,5 @@
-backports-abc==0.5
-backports.functools-lru-cache==1.6.4
-backports.shutil-get-terminal-size==1.0.0
 click==7.1.2
-colorama==0.4.4
-cycler==0.10.0
 decorator==4.4.2
-enum34==1.1.10
 Flask==1.1.4
 graphviz==0.16
 gunicorn==19.10.0
@@ -17,12 +11,10 @@ Jinja2==2.11.3
 jupyter-client==5.3.5
 jupyter-core==4.6.3
 kiwisolver==1.1.0
-MarkupSafe==1.1.1
 matplotlib==2.2.5
-numpy==1.16.6
+numpy==1.19.1
 pathlib2==2.3.6
 pickleshare==0.7.5
-Pillow==6.2.2
 prompt-toolkit==1.0.18
 pydotplus==2.0.2
 Pygments==2.5.2
@@ -30,11 +22,8 @@ pyparsing==2.4.7
 pyreadline==2.1
 python-dateutil==2.8.1
 pytz==2021.1
-pyzmq==19.0.2
-scandir==1.10.0
 simplegeneric==0.8.1
 singledispatch==3.6.2
-six==1.16.0
 tornado==5.1.1
 traitlets==4.3.3
 wcwidth==0.2.5

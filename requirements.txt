@@ -10,7 +10,6 @@ lazy-object-proxy==1.4.3
 ipython==5.10.0
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
-Jinja2==2.11.3
 jupyter-client==5.3.5
 jupyter-core==4.6.3
 pathlib2==2.3.6

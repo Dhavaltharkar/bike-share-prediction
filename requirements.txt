@@ -4,6 +4,7 @@ Flask==1.1.4
 graphviz==0.16
 gunicorn==19.10.0
 ipykernel==4.10.1
+lazy-object-proxy==1.4.3
 ipython==5.10.0
 ipython-genutils==0.2.0
 itsdangerous==1.1.0

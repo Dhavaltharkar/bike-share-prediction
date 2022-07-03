@@ -1,4 +1,4 @@
-# bike-share-prediction
+# Bike-Share-Prediction
 This case study is about a bike rental shop. They want to predict the demand of bikes at any given hour of the day, so that, they can arrange for sufficient number of bike for the customers.
 
 # Dataset Description
@@ -9,6 +9,8 @@ Apart from interesting real world applications of bike sharing systems, the char
 # Abstract :
 
 This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
+
+# 
 
 # Screenshots
 

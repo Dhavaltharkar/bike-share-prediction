@@ -10,7 +10,18 @@ Apart from interesting real world applications of bike sharing systems, the char
 
 This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
 
-# 
+# Flask
+
+Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
+
+Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
+
+#Installation
+
+Install and update using pip:
+
+$ pip install -U Flask
+
 
 # Screenshots
 

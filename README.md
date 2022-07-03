@@ -9,3 +9,8 @@ Apart from interesting real world applications of bike sharing systems, the char
 # Abstract :
 
 This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
+
+# Screenshots
+
+# Home Page
+<img src ="https://raw.githubusercontent.com/Dhavaltharkar/bike-share-prediction/main/markdown/home.png">

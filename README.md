@@ -24,4 +24,4 @@ This dataset contains the hourly and daily count of rental bikes between years 2
 
 # Contact Page
 <img src ="https://raw.githubusercontent.com/Dhavaltharkar/bike-share-prediction/main/markdown/contact.png">
-<img src ="https://raw.githubusercontent.com/Dhavaltharkar/bike-share-prediction/main/markdown/contact1.png">
+<img src ="https://raw.githubusercontent.com/Dhavaltharkar/bike-share-prediction/main/markdown/contact2.png">

@@ -1,6 +1,6 @@
 # Bike-Share-Prediction
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![MIT License](https://camo.githubusercontent.com/15c7478468dd755b66b3ca60b4cc933a5e5b61087718ef8d0b4c40e0c2007e79/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f6c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465)
 
 This case study is about a bike rental shop. They want to predict the demand of bikes at any given hour of the day, so that, they can arrange for sufficient number of bike for the customers.
 

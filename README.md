@@ -10,13 +10,34 @@ Apart from interesting real world applications of bike sharing systems, the char
 
 This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
 
+# Installation of Anaconda
+
+Open Anaconda prompt and create new environment
+
+conda create -n your_env_name python = (any_version_number)
+Then Activate the newly created environment
+
+conda activate your_env_name
+Clone the repository using git
+
+git clone https://github.com/Prakashdeveloper03/Pricefy.git
+Change to the cloned directory
+
+cd <directory_name>
+To install all requirement packages for the app
+
+pip install -r requirements.txt
+Then, Run the app
+
+uvicorn main:app --reload
+
 # Flask
 
 Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
 
 Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
 
-# Installation
+# Installation of Flask
 
 Install and update using pip:
 

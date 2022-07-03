@@ -1,4 +1,4 @@
-# Bike-Share-Prediction
+Se# Bike-Share-Prediction
 This case study is about a bike rental shop. They want to predict the demand of bikes at any given hour of the day, so that, they can arrange for sufficient number of bike for the customers.
 
 # Dataset Description
@@ -20,7 +20,7 @@ Then Activate the newly created environment
 conda activate your_env_name
 Clone the repository using git
 
-git clone https://github.com/Prakashdeveloper03/Pricefy.git
+git clone 
 Change to the cloned directory
 
 cd <directory_name>

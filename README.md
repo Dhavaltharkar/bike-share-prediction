@@ -24,8 +24,8 @@ Apart from interesting real world applications of bike sharing systems, the char
 |   hum         | 	float64      |
 |   windspeed   | 	float64      |
 |   Casual	     |  int64        |
-|Registered	              |
-|   Cnt	int64         |
+|   Registered	 |  int64        |              |
+|   Cnt	        |  int64        |
 
  
 # Abstract :

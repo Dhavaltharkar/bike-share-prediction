@@ -9,8 +9,24 @@ Apart from interesting real world applications of bike sharing systems, the char
 
 |Column Name    | Data types    |
 | ------------- | ------------- |
-|instant        | Int64         |
-| Content Cell  | Content Cell  |
+|   instant     |  Int64        |
+|   dteday      |  object       |
+|   season      |	 int64        |
+|   yr          |  int64        |
+|   mnth        |  int64        |
+|   hr          |  int64        |
+|   holiday     | 	int64        |
+|   weekday     |  int64        |
+|   workingday  |  int64        |
+|   weathersit  | 	int64        |
+|   temp        | 	float64      |
+|   atemp       |  float64      |   |
+|   hum         | 	float64      |
+|   windspeed   | 	float64      |
+|   Casual	     |  int64        |
+|Registered	              |
+|   Cnt	int64         |
+
  
 # Abstract :
 

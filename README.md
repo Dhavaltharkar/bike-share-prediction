@@ -33,7 +33,7 @@ Converting data to numeric for ML
 Sampling and K-fold cross validation
 Trying multiple Regression algorithms
 Selecting the best Model
-Deploying the best model in production
+Deploying the best model in production.
 
 |Column Name    | Data types    |
 | ------------- | ------------- |

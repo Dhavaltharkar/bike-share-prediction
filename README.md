@@ -70,7 +70,7 @@ Deploying the best model in production.
 |   windspeed   | 	float64      |
 |   Casual	     |  int64        |
 |   Registered	 |  int64        |              |
-|   Cnt	        |  int64        |
+|   cnt	        |  int64        |
 
  
 # Abstract :
